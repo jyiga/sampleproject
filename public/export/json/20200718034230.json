@@ -1,0 +1,86 @@
+{
+    "tname": "item",
+    "fieldList": [
+        {
+            "id": "4",
+            "fieldName": "id",
+            "fieldType": "INT",
+            "fieldLength": "15",
+            "fieldConstraint": "AUTO_INCREMENT",
+            "canBeNull": "0",
+            "entityId": "2"
+        },
+        {
+            "id": "5",
+            "fieldName": "itemName",
+            "fieldType": "VARCHAR",
+            "fieldLength": "150",
+            "fieldConstraint": "",
+            "canBeNull": "0",
+            "entityId": "2"
+        },
+        {
+            "id": "6",
+            "fieldName": "itemDescription",
+            "fieldType": " TEXT",
+            "fieldLength": "0",
+            "fieldConstraint": "",
+            "canBeNull": "1",
+            "entityId": "2"
+        },
+        {
+            "id": "7",
+            "fieldName": "creationDate",
+            "fieldType": "DATETIME",
+            "fieldLength": "0",
+            "fieldConstraint": "DEFAULT CURRENT_TIMESTAMP",
+            "canBeNull": "0",
+            "entityId": "2"
+        },
+        {
+            "id": "8",
+            "fieldName": "ModifiedDate",
+            "fieldType": "DATETIME",
+            "fieldLength": "0",
+            "fieldConstraint": "ON UPDATE CURRENT_TIMESTAMP",
+            "canBeNull": "1",
+            "entityId": "2"
+        },
+        {
+            "id": "9",
+            "fieldName": "isActive",
+            "fieldType": "INT",
+            "fieldLength": "1",
+            "fieldConstraint": "",
+            "canBeNull": "1",
+            "entityId": "2"
+        },
+        {
+            "id": "53",
+            "fieldName": "categoryId",
+            "fieldType": "INT",
+            "fieldLength": "15",
+            "fieldConstraint": "",
+            "canBeNull": "0",
+            "entityId": "2"
+        },
+        {
+            "id": "58",
+            "fieldName": "amount",
+            "fieldType": "FLOAT",
+            "fieldLength": "15",
+            "fieldConstraint": "",
+            "canBeNull": "0",
+            "entityId": "2"
+        },
+        {
+            "id": "59",
+            "fieldName": "uom",
+            "fieldType": "VARCHAR",
+            "fieldLength": "120",
+            "fieldConstraint": "",
+            "canBeNull": "0",
+            "entityId": "2"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "tname": "Category",
+    "fieldList": [
+        {
+            "id": "1",
+            "fieldName": "id",
+            "fieldType": "INT",
+            "fieldLength": "15",
+            "fieldConstraint": "AUTO_INCREMENT",
+            "canBeNull": "0",
+            "entityId": "1"
+        },
+        {
+            "id": "2",
+            "fieldName": "categoryName",
+            "fieldType": "VARCHAR",
+            "fieldLength": "50",
+            "fieldConstraint": "",
+            "canBeNull": "0",
+            "entityId": "1"
+        },
+        {
+            "id": "3",
+            "fieldName": "parentId",
+            "fieldType": "INT",
+            "fieldLength": "15",
+            "fieldConstraint": "",
+            "canBeNull": "1",
+            "entityId": "1"
+        }
+    ]
+}

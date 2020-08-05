@@ -1,0 +1,23 @@
+{
+    "tname": "speckey",
+    "fieldList": [
+        {
+            "id": "10",
+            "fieldName": "id",
+            "fieldType": "INT",
+            "fieldLength": "15",
+            "fieldConstraint": "AUTO_INCREMENT",
+            "canBeNull": "0",
+            "entityId": "3"
+        },
+        {
+            "id": "11",
+            "fieldName": "specText",
+            "fieldType": "VARCHAR",
+            "fieldLength": "150",
+            "fieldConstraint": "",
+            "canBeNull": "0",
+            "entityId": "3"
+        }
+    ]
+}
